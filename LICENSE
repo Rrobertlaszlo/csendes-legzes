@@ -19,3 +19,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+---
+
+### ⚙️ `install.sh`
+
+```bash
+#!/bin/bash
+
+echo "🔧 Telepítés indul..."
+
+if [ "$EUID" -ne 0 ]; then
+  echo "❗ Kérlek futtasd sudo-val: sudo ./install.sh"
+  exit 1
+fi
+
+# Fájlok másolása
+install -Dm755 csendes-legzes /usr/local/bin/csendes-legzes
+install -Dm644 csendes-legzes.desktop /usr/share/applications/csendes-legzes.desktop
+
+# Hanganyag könyvtár
+mkdir -p /usr/share/csendes-legzes/
+
+echo ""
+echo "✅ A Csendes Légzés telepítve lett!"
+echo "🎧 A hanganyagokat másold be a /usr/share/csendes-legzes/ mappába."
+echo "🌐 Töltsd le őket innen: https://mega.nz/fm/wLcnnJIB"
+echo ""
+echo "🔁 Indíthatod a menüből vagy ezzel a paranccsal: csendes-legzes"

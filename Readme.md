@@ -1,4 +1,17 @@
+
 # Csendes Légzés
+
+Ez a program egy meditációs és relaxációs eszköz, amely a csenden és a tudatos légzésen keresztül segít visszatalálni a belső békéhez.
+
+## Telepítés
+
+1. Töltsd le a `.deb` telepítőcsomagot a következő linkről:
+   👉 [Letöltés .deb Mega-ról](https://mega.nz/file/XXXXX#YYYYY)
+
+2. Telepítsd a csomagot:
+
+```bash
+sudo dpkg -i csendes-legzes_1.0.deb
 
 Egy egyszerű, meditációs segédprogram Python és PyQt5 használatával. Lehetőséget ad relaxációs zene lejátszására, szünetek beiktatására, és a tudatos légzés támogatására.
 
@@ -9,38 +22,45 @@ Ez a program egy letisztult, meditációs hangulatot árasztó alkalmazás, amel
 - tartalmaz egy meditációs naplót,
 - tartalmaz egy Támogatás gombot (PayPal: [paypal.me/laszlorobert1](https://paypal.me/laszlorobert1)).
 
-A program célja a nyugodt, csendes elmélyülés támogatása.  
-Készült Python + PyQt5 + Pygame használatával.
+**Csendes Légzés** egy nyílt forráskódú, meditációt támogató, minimalista Linux-alkalmazás.  
+Segít a **jelenlétbe érkezni**, a figyelmet a **csendre és légzésre irányítani**, és így finom módon támogatni a **belső egyensúlyt**.
 
-## Telepítés (.deb)
-
-1. Töltsd le a `.deb` csomagot a [Releases](https://github.com/NEVED/csendes-legzes/releases) résznél.
-2. Terminálból telepítsd:
+> A program szándéka:  
+> ✔️ A világban csendet teremteni  
+> ✔️ Segíteni az elmélyülést  
+> ✔️ Láthatatlan gyógyítóként támogatni a lelki egészséget
 
 ---
 
-MIT License
+## 🎯 Funkciók
 
-Copyright (c) 2025 Rrobertlaszlo
+- 🧘‍♂️ Vezetett meditációs szöveg (vizuálisan megjelenik terminálban)
+- 🔊 Háttérzene lehetősége (letölthető hanganyagból)
+- 🌿 Spirituális tisztaság és egyszerűség
+- 🧑‍💻 Könnyű telepítés, menüből is indítható
+- 🌐 MEGA-tárhelyes fájllekérés (offline telepítéssel)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software...
+---
 
-(→ Teljes MIT szöveget beillesztem, ha kéred)
+## 🛠️ Telepítés (Linux)
 
-### ✅ `LICENSE` (MIT engedély – szabadon használható)
+1. **Töltsd le a fájlokat MEGA-ról:**
+
+👉 [MEGA Letöltés](https://mega.nz/fm/wLcnnJIB)
+
+Tartalom:
+- `csendes-legzes` (a program)
+- `csendes-legzes.desktop` (menüikon)
+- `install.sh` (telepítési script)
+- `meditacio_zene.wav` (opcionális zene)
+
+2. **Telepítés parancssorból:**
 
 ```bash
-nano LICENSE
-
-```bash
-./install.sh
+chmod +x install.sh
+sudo ./install.sh
 
 ## Fejlesztő
 
 Készült: Nagy Felhő, 2025  
 GitHub: [https://github.com/Rrobertlaszlo](https://github.com/rRobertlaszlo)  
-Támogatás: [https://paypal.me/laszlorobert1](https://paypal.me/laszlorobert1)
