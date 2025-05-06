@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Csendes Légzés
+Comment=Meditációs segédprogram zenelejátszással
+Exec=/usr/local/bin/csendes-legzes
+Icon=utilities-terminal
+Terminal=false
+Categories=Utility;
