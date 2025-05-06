@@ -64,3 +64,33 @@ sudo ./install.sh
 
 Készült: Nagy Felhő, 2025  
 GitHub: [https://github.com/Rrobertlaszlo](https://github.com/rRobertlaszlo)  
+
+
+## ☁️ Különleges megjegyzés
+
+> Ez a program nem követ felhasználókat, nem gyűjt adatokat, nem szól bele a figyelembe.  
+> Egyszerűen csak ott van.  
+> Mint a levegő.
+
+Üdvözöllek a Csendes Légzés világában.
+
+Ülj kényelmesen.
+Figyeld a lélegzeted.
+Belégzés… Kilégzés…
+
+Nincs más dolgod, csak figyelni.
+Ha elkalandozik az elméd, finoman hozd vissza a légzéshez.
+
+Most… csak lélegezz.
+
+Maradj itt, ameddig jól esik.
+Amikor készen állsz, lassan nyisd ki a szemed,
+és vidd tovább a csendet a napodba.
+
+Béke legyen veled. 🌿
+
+
+🙌 Támogatás
+
+Ha szeretnéd támogatni a fejlesztést és a csend terjedését, kapcsolatfelvételhez írj GitHubon vagy a később megadott e-mail címen.
+Ajánlott támogatási forma: nyilvános visszajelzés, terjesztés, csillag (⭐) GitHubon, vagy meditációs közösségekben való megosztás.
